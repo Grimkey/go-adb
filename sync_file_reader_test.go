@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jt6562/go-adb/wire"
+	"github.com/schoentoon/go-adb/wire"
 	"github.com/stretchr/testify/assert"
 )
 

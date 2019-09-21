@@ -4,8 +4,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/jt6562/go-adb/internal/errors"
-	"github.com/jt6562/go-adb/wire"
+	"github.com/schoentoon/go-adb/internal/errors"
+	"github.com/schoentoon/go-adb/wire"
 )
 
 // MockServer implements Server, Scanner, and Sender.
