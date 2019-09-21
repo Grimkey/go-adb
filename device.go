@@ -163,6 +163,18 @@ func (c *Device) ForwardToFreePort(remote ForwardSpec) (port int, err error) {
 	return
 }
 
+// Reverse setup a reverse connection for the device
+func (c *Device) Reverse(local, remote ForwardSpec) error {
+	conn, err := c.dialDevice()
+	if err != nil {
+		return err
+	}
+	defer conn.Close()
+
+	req := fmt.Sprintf("reverse:forward:%v;%v", local, remote)
+	return conn.RoundTripSingleNoResponse([]byte(req))
+}
+
 func (c *Device) DeviceInfo() (*DeviceInfo, error) {
 	// Adb doesn't actually provide a way to get this for an individual device,
 	// so we have to just list devices and find ourselves.
