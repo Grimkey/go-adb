@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/schoentoon/go-adb/internal/errors"
+	"github.com/zhin/go-adb/internal/errors"
 )
 
 var (

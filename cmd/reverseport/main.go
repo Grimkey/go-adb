@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	adb "github.com/schoentoon/go-adb"
+	adb "github.com/zhin/go-adb"
 )
 
 var (

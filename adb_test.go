@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/schoentoon/go-adb/wire"
+	"github.com/zhin/go-adb/wire"
 )
 
 func TestGetServerVersion(t *testing.T) {

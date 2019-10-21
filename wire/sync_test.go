@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schoentoon/go-adb/internal/errors"
+	"github.com/zhin/go-adb/internal/errors"
 	"github.com/stretchr/testify/assert"
 )
 

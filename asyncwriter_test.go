@@ -3,7 +3,7 @@ package adb_test
 import (
 	"log"
 
-	adb "github.com/schoentoon/go-adb"
+	adb "github.com/zhin/go-adb"
 )
 
 func ExampleDevice_DoSyncLocalFile() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/schoentoon/go-adb/internal/errors"
+	"github.com/zhin/go-adb/internal/errors"
 )
 
 // Sender sends messages to the server.

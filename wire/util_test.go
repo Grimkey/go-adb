@@ -3,7 +3,7 @@ package wire
 import (
 	"testing"
 
-	"github.com/schoentoon/go-adb/internal/errors"
+	"github.com/zhin/go-adb/internal/errors"
 	"github.com/stretchr/testify/assert"
 )
 

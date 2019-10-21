@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/schoentoon/go-adb/internal/errors"
-	"github.com/schoentoon/go-adb/wire"
+	"github.com/zhin/go-adb/internal/errors"
+	"github.com/zhin/go-adb/wire"
 )
 
 // syncFileWriter wraps a SyncConn that has requested to send a file.

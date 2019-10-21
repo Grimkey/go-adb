@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/schoentoon/go-adb/wire"
+	"github.com/zhin/go-adb/wire"
 	"github.com/zhin/go-adb"
 )
 
